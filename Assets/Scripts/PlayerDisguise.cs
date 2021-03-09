@@ -11,7 +11,7 @@ public class PlayerDisguise : MonoBehaviour
     public bool canDisguise;
     public bool hasDisguise = false;
 
-    [SerializeField] private GameObject box, circle;
+    [SerializeField] private GameObject box, circle, bat, batL, batR, viking;
     
     
     // Start is called before the first frame update
@@ -26,18 +26,27 @@ public class PlayerDisguise : MonoBehaviour
         if (canDisguise && Input.GetKeyDown(KeyCode.Space))
         {
             hasDisguise = true;
-            _spriteRenderer.sprite = sprites[1];
+            //_spriteRenderer.sprite = sprites[1];
             box.SetActive(true);
             circle.SetActive(false);
+            bat.SetActive(false);
+            batL.SetActive(false);
+            batR.SetActive(false);
+            viking.SetActive(true);
+            
 
         }
         
         if (hasDisguise && Input.GetKeyDown(KeyCode.X))
         {
             hasDisguise = false;
-            _spriteRenderer.sprite = sprites[0];
+            //_spriteRenderer.sprite = sprites[0];
             box.SetActive(false);
             circle.SetActive(true);
+            bat.SetActive(true);
+            batL.SetActive(true);
+            batR.SetActive(true);
+            viking.SetActive(false);
         }
     }
 
