@@ -10,6 +10,7 @@ public class PlayerDisguise : MonoBehaviour
     
     public bool canDisguise;
     public bool hasDisguise = false;
+    public bool canRevert = false;
 
     [SerializeField] private GameObject box, circle, bat, batL, batR, viking;
     
@@ -37,7 +38,7 @@ public class PlayerDisguise : MonoBehaviour
 
         }
         
-        if (hasDisguise && Input.GetKeyDown(KeyCode.X))
+        if (hasDisguise && Input.GetKeyDown(KeyCode.X) && canRevert)
         {
             hasDisguise = false;
             //_spriteRenderer.sprite = sprites[0];
@@ -47,6 +48,7 @@ public class PlayerDisguise : MonoBehaviour
             batL.SetActive(true);
             batR.SetActive(true);
             viking.SetActive(false);
+            canRevert = false;
         }
     }
 

@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Bat
+  - Not Bat
   layers:
   - Default
   - TransparentFX
@@ -50,4 +52,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 826559439
+    locked: 0
+  - name: Above Player
+    uniqueID: 999942613
     locked: 0

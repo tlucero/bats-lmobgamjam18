@@ -10,11 +10,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/TrapNonBat.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/PlayerDisguise.cs" />
       <option value="$PROJECT_DIR$/Assets/VikingAnim.cs" />
       <option value="$PROJECT_DIR$/Assets/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/OpenSesame.cs" />
+      <option value="$PROJECT_DIR$/Assets/TrapNonBat.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pXVrks9Q4ucwxQk013NnjM8p5R" />
@@ -58,6 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615329628689</updated>
       <workItem from="1615329632963" duration="1632000" />
+      <workItem from="1615412080624" duration="1044000" />
     </task>
     <servers />
   </component>

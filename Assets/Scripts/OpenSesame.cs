@@ -7,7 +7,7 @@ public class OpenSesame : MonoBehaviour
 {
     private PlayerDisguise _playerDisguise;
 
-    [SerializeField] private GameObject boxCol;
+    [SerializeField] private GameObject gate;
     
     // Start is called before the first frame update
     void Start()
@@ -25,7 +25,8 @@ public class OpenSesame : MonoBehaviour
     {
         if (other.CompareTag("Player") && _playerDisguise.hasDisguise)
         {
-            boxCol.SetActive(false);
+            gate.SetActive(false);
+            _playerDisguise.canRevert = true;
         }
     }
 }
