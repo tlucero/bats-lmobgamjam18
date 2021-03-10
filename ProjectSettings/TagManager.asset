@@ -42,3 +42,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Tilemaps
+    uniqueID: 1737503559
+    locked: 0
+  - name: Things of world
+    uniqueID: 1767996427
+    locked: 0
+  - name: Player
+    uniqueID: 826559439
+    locked: 0
