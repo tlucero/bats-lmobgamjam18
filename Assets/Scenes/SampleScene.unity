@@ -489,13 +489,14 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &519420029
 AudioListener:
   m_ObjectHideFlags: 0
@@ -504,6 +505,38 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -592,7 +625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 633f2439fedbcc64b80b766dbc78060b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yay: {fileID: 1933190197}
+  gate: {fileID: 0}
 --- !u!61 &582779614
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1101,6 +1134,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: b6a6bca934ab47f4682db16aeabeec50, type: 3}
   canDisguise: 0
   hasDisguise: 0
+  canRevert: 0
   box: {fileID: 812288794}
   circle: {fileID: 1365300611}
   bat: {fileID: 0}
@@ -1769,7 +1803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58e5e462d05decf4f9e6e571932a1f78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boxCol: {fileID: 1471224607}
+  gate: {fileID: 0}
 --- !u!61 &2005391891
 BoxCollider2D:
   m_ObjectHideFlags: 0
