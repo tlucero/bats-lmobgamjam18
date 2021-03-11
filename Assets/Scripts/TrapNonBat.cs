@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class TrapNonBat : MonoBehaviour
 {
     private PlayerDisguise _playerDisguise;
+
+    [SerializeField] private int scenes;
     
     // Start is called before the first frame update
     void Start()
@@ -24,7 +26,7 @@ public class TrapNonBat : MonoBehaviour
     {
         if (other.CompareTag("Player") && _playerDisguise.hasDisguise)
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(scenes);
         }
         else
         {

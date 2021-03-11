@@ -11,10 +11,10 @@
           <e p="OpenSesame.cs" t="Include" />
           <e p="PlayerDisguise.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
+          <e p="TrapNonBat.cs" t="Include" />
           <e p="VikingAnim.cs" t="Include" />
           <e p="Yay.cs" t="Include" />
         </e>
-        <e p="TrapNonBat.cs" t="Include" />
       </e>
       <e p="bats-lmobgamjam18.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

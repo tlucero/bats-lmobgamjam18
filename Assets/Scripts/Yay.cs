@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Yay : MonoBehaviour
 {
-    [SerializeField] private GameObject yay;
+    [SerializeField] private GameObject gate;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,8 +22,7 @@ public class Yay : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            yay.SetActive(true);
-            Destroy(gameObject);
+            Destroy(gate);
         }
     }
 }
