@@ -6,9 +6,13 @@
     <e p="C:\Users\Sidd\Documents\GitHub\bats-lmobgamjam18" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Blue.cs" t="Include" />
+        <e p="Green.cs" t="Include" />
+        <e p="LightSequence.cs" t="Include" />
         <e p="Medieval_pixel_art_asset_FREE" t="Include">
           <e p="pixel_snapping_README.txt" t="Include" />
         </e>
+        <e p="Red.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="EnemyDead.cs" t="Include" />
           <e p="OpenSesame.cs" t="Include" />
@@ -18,6 +22,8 @@
           <e p="VikingAnim.cs" t="Include" />
           <e p="Yay.cs" t="Include" />
         </e>
+        <e p="Sequence.cs" t="Include" />
+        <e p="White.cs" t="Include" />
         <e p="WinTele.cs" t="Include" />
       </e>
       <e p="bats-lmobgamjam18.sln" t="IncludeFlat" />
